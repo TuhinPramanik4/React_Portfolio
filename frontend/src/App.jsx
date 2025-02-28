@@ -10,12 +10,16 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <Intro />
-      <About />
-      <Techstack />
-      <Projects />
-      <Freelance />
+    < >
+    <div className='bg-[#121212]'>
+      <div id='intro'><Intro /></div>
+      <div id='About'><About /></div>
+      <div id='skills'><Techstack /></div>
+      <div id='projects'><Projects /></div>
+      <div id='freelance'><Freelance /> </div>
+   
+    </div>
+      
     </>
   )
 }

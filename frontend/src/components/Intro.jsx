@@ -8,7 +8,7 @@ function Intro() {
   <div className="w-full md:w-2/3 h-full flex justify-center items-center">
     <nav className="flex flex-wrap justify-center space-x-4 md:space-x-8 text-lg font-semibold">
       <a href="#intro" className="hover:text-blue-400 transition-all">Intro</a>
-      <a href="#about" className="hover:text-blue-400 transition-all">About</a>
+      <a href="#About" className="hover:text-blue-400 transition-all">About</a>
       <a href="#skills" className="hover:text-blue-400 transition-all">Skills</a>
       <a href="#projects" className="hover:text-blue-400 transition-all">Projects</a>
       <a href="#freelance" className="hover:text-blue-400 transition-all">Freelance</a>
