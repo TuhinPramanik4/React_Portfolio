@@ -11,7 +11,7 @@ function Intro() {
       <a href="#About" className="hover:text-blue-400 transition-all">About</a>
       <a href="#skills" className="hover:text-blue-400 transition-all">Skills</a>
       <a href="#projects" className="hover:text-blue-400 transition-all">Projects</a>
-      <a href="#freelance" className="hover:text-blue-400 transition-all">Freelance</a>
+      <a href="#contact" className="hover:text-blue-400 transition-all">Contact</a>
     </nav>
   </div>
 </div>
@@ -35,7 +35,7 @@ function Intro() {
         {/* Buttons */}
         <div className="Role_and_Buttons w-full flex flex-col justify-center items-center pb-10">
           <div className="Buttons flex flex-col md:flex-row space-y-4 md:space-x-6 md:space-y-0">
-            <button className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl text-lg shadow-lg transition-all hover:bg-blue-700 hover:scale-105">
+            <button href="#contact" className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl text-lg shadow-lg transition-all hover:bg-blue-700 hover:scale-105">
               Contact Me
             </button>
             <button className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl text-lg shadow-lg transition-all hover:bg-blue-700 hover:scale-105">

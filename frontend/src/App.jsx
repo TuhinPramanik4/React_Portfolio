@@ -4,7 +4,7 @@ import Intro from './components/Intro'
 import Techstack from './components/Techstack'
 import Projects from './components/Projects'
 import About from './components/About'
-import Freelance from './components/Freelance'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ function App() {
       <div id='About'><About /></div>
       <div id='skills'><Techstack /></div>
       <div id='projects'><Projects /></div>
-      <div id='freelance'><Freelance /> </div>
+      <div id='contact'><Contact /> </div>
    
     </div>
       
