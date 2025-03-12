@@ -32,7 +32,7 @@ function Projects() {
           href="https://github.com/TuhinPramanik4"
           target="_blank"
           rel="noopener noreferrer"
-          className="px-6 py-3 bg-gray-900 text-white text-lg font-semibold rounded-lg hover:bg-gray-800 transition-all"
+          className="px-6 py-3 bg-green-400 text-black text-lg font-semibold rounded-lg hover:bg-gray-800 transition-all"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
         >
