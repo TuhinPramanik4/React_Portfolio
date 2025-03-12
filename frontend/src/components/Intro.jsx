@@ -6,7 +6,7 @@ function Intro() {
       {/* Navbar */}
       <div className="Navbar w-full h-[10vh] md:h-[12vh] flex justify-center items-center px-4 md:px-0">
   <div className="w-full md:w-2/3 h-full flex justify-center items-center">
-    <nav className="flex flex-wrap justify-center space-x-4 md:space-x-8 text-lg font-semibold">
+    <nav className="flex flex-wrap justify-center space-x-4 md:space-x-8 text-2xl font-semibold">
       <a href="#intro" className="hover:text-blue-400 transition-all">Intro</a>
       <a href="#About" className="hover:text-blue-400 transition-all">About</a>
       <a href="#skills" className="hover:text-blue-400 transition-all">Skills</a>
@@ -35,7 +35,7 @@ function Intro() {
         {/* Buttons */}
         <div className="Role_and_Buttons w-full flex flex-col justify-center items-center pb-10">
           <div className="Buttons flex flex-col md:flex-row space-y-4 md:space-x-6 md:space-y-0">
-            <button href="#contact" className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl text-lg shadow-lg transition-all hover:bg-blue-700 hover:scale-105">
+            <button onClick={() => window.location.href = "#contact"} className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl text-lg shadow-lg transition-all hover:bg-blue-700 hover:scale-105">
               Contact Me
             </button>
             <button className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-xl text-lg shadow-lg transition-all hover:bg-blue-700 hover:scale-105">
