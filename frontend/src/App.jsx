@@ -13,7 +13,7 @@ function App() {
     < >
     <div className='bg-[#121212]'>
       <div id='intro'><Intro /></div>
-      <div id='About'><About /></div>
+      <div id='about'><About /></div>
       <div id='skills'><Techstack /></div>
       <div id='projects'><Projects /></div>
       <div id='contact'><Contact /> </div>
