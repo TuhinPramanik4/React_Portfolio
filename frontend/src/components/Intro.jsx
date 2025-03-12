@@ -46,14 +46,14 @@ function Intro() {
             />
           </div>
           <div className="Nameee w-full md:w-1/2 flex flex-col justify-center items-center gap-4 mt-6 md:mt-0 text-center">
-            <motion.h1 
+            <motion.h3 
               initial={{ x: -100, opacity: 0 }} 
               animate={{ x: 0, opacity: 1 }} 
               transition={{ duration: 0.8 }}
-              className='text-5xl md:text-7xl font-bold'
+              className='text-2xl md:text-3xl font-bold'
             >
-              Meet !!!!
-            </motion.h1>
+              I'm
+            </motion.h3>
             <motion.h1 
               initial={{ x: 100, opacity: 0 }} 
               animate={{ x: 0, opacity: 1 }} 
