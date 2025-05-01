@@ -11,8 +11,6 @@ export default function ContactPage() {
                 transition={{ duration: 0.5 }}
             >
                 <h1 className="text-3xl font-bold mb-6">Contact Me</h1>
-                <p className="text-lg mb-4"><strong>Location:</strong> Kolkata, India</p>
-                <p className="text-lg mb-6"><strong>Number:</strong> 7001604758</p>
                 <div className="flex justify-center space-x-8">
                     <a 
                         href="https://github.com/TuhinPramanik4" 
