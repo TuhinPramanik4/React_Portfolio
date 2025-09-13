@@ -10,7 +10,7 @@ export default function ContactPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
             >
-                <h1 className="text-3xl font-bold mb-6">Contact Me</h1>
+                <h1 className="text-3xl font-bold mb-6">Contact Tuhin</h1>
                 <div className="flex justify-center space-x-8">
                     <a 
                         href="https://github.com/TuhinPramanik4" 
